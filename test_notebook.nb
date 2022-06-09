@@ -1,0 +1,195 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9330,        187]
+NotebookOptionsPosition[      8850,        171]
+NotebookOutlinePosition[      9283,        188]
+CellTagsIndexPosition[      9240,        185]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"img", "=", 
+   GraphicsBox[
+    TagBox[RasterBox[CompressedData["
+1:eJzt28GOXvdBxuFxKK0dqRWXAHfBllUcUxxUxAW0NK3YFKlFatzYTVghsWLZ
+xImKRNMlrIEkDWlEF0mvAHEdCMUz5vtmbHf6pui3QpNqnp8ejY9nf/R/z/m+
++YNv/NXXvvXcycnJ924efnzt69//o+9+9+v3/uz3Dv/58+987y+//Z2Xv/ni
+d/765W+//N0//MbvHH759zdOTn7/cHG8/vLDl269/dKtt+5eeP7h3WfXcI19
+9ebbX/2Lf/rbD97/maSnvff+++9+8MH7h372wYf/+fY3T+9/6dP7t+Cau3wj
+nN1//vDf/7n/lS/86M7Jmy+ePLzzxBuXruG6eu6N2zfevH3vFz9+fN7ZwdnZ
+Y0kXnR3uiEeP/vXB43snZ/dOHgOXvXLy6Q9+90sP/+Rwmtx48+jkzRdO3njh
+OLHefPHiN3A9He+Fh7df++U7Tw8TSU86Pmscb4nTx/92/3COHF35cQZXbR40
+Hr36xVtv3T0MqvMz5fbhQDn8fOrqzzi4Kod74TCxfvjJT351oJwaWdLpU+c3
+xXt/czxWvn/jyo82uEJPltUPbly+/vT+reO+Or6tun1xoBwvDk/ux4f3q/+M
+Bq7KxVPGax//5PicfrGszCvpUscb4r3Xz54eK8BlZw9uPv/2S+cP7LePnwye
+7yvvr+Dijnj9k3dOT0+v+hyTPq+99/qVn2Jw5c4+8/Pg0YPnD/vq+MB+/M7V
+C5feX/mWO9faxb761eeDV3uKSZ+Xfv1x493Xzl7x/gp+g4vPBy8e2C+9v7ry
+Vwdw5Y5vcR98/I9XdIpJvwWdvfvaYVyd3Xvuys8yuEK/8U9on3z/6snfDz79
+/tXD/78zC35bHL+R+Pon71z1CSZ9fjvuq6s+2uDz5enrXPsK/g/2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7DsKwj2lRTZV7Ds
+Kwj2lRTZV7DsKwj2lRTZV7B+fV9dHCiH0+RiX131uQZX7+SNF557+McPPv7J
+pbPk6o4x6XPZcV/94MbZveeu/lCDK3exrF55cjsc9tXzb7908vDOueMD+8Vj
++9PfwDX13MMXT9548YdP31+dWlfSYVCdPXp6cX5HXLy/evrADtfXK/ub01eP
+++r8gf32xeeDh8f2g4v/wrV1fiO8+PonPz17dPrscLGypCfL6uL6+P7qqs81
++Hw4u/Tz8NDx6f1bN9+6e/Lmixcvry69v4Jr7Xxl3Xnt43eOk+r0bI4V6dp2
+cSOcnf9z2Fdn97y/gt/g2furw6P6xbK69Ah/9d+Bgaty/l3EO6/98qeXzpUr
+O9Gkz02nTx07e/f1wzly9v0bx4kF19XlN1dPnjievb86/4PB86+dXLy/unPi
+Twi53s7fYt3x/Svpsx3fXR1viNPH7z747NdO4Lr5tU8Gn3r06he/8KM7x88H
+jx8R3rk0tOBae+6N4yvce7/4h8fPPgrx+aCufRc3wcW+Ojt79Om/3P/ssQIc
+njsO++orb/3prbdfuvXW3QvPP7z77BqurZtvf/XmW3df/ue/++jDn1/07EK6
+xv37hx9+8NFHHx76+Uf/8V8//tbZg5uf3r8FPHP66q3T+1/67x9++X8B65II
+9A==
+      "], {{0, 300.}, {600., 0}}, {0, 255},
+      ColorFunction->RGBColor,
+      ImageResolution->96],
+     BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+     Selectable->False],
+    DefaultBaseStyle->"ImageGraphics",
+    ImageSize->Automatic,
+    ImageSizeRaw->{600., 300.},
+    PlotRange->{{0, 600.}, {0, 300.}}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"flaggy", "[", "x___", "]"}], ":=", 
+   RowBox[{"ImageResize", "[", 
+    RowBox[{"img", ",", "1000"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"SystemOpen", "@", 
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<~/Desktop/flagGrid.pdf\>\"", ",", 
+    RowBox[{"Grid", "[", 
+     RowBox[{"Array", "[", 
+      RowBox[{"flaggy", ",", 
+       RowBox[{"{", 
+        RowBox[{"9", ",", "3"}], "}"}]}], "]"}], " ", "]"}], " ", ",", 
+    RowBox[{"ItemSize", "\[Rule]", "All"}]}], "]"}]}]}], "Input",
+ TaggingRules->{"LastCursorPosition" -> False},
+ CellChangeTimes->{
+  3.767869704382765*^9, {3.856691411588834*^9, 3.856691468924659*^9}, {
+   3.856691697154059*^9, 3.856691739791844*^9}, {3.85669179510603*^9, 
+   3.856691798856196*^9}, {3.856691881275401*^9, 3.856691912929985*^9}, {
+   3.856692212836238*^9, 3.8566922458819637`*^9}, {3.856692367765099*^9, 
+   3.85669241156288*^9}, {3.8566924477621803`*^9, 3.856692478878673*^9}, {
+   3.856692707339922*^9, 3.856692714839262*^9}, {3.85669276879939*^9, 
+   3.856692776486903*^9}, {3.856693315377523*^9, 3.856693317334741*^9}, {
+   3.856693418095969*^9, 3.8566934185880003`*^9}, {3.856693710248931*^9, 
+   3.856693710434677*^9}, {3.8566977318388157`*^9, 3.8566977330748243`*^9}},
+ CellLabel->
+  "In[126]:=",ExpressionUUID->"9cfdcba4-0445-4bd3-b7b1-9584274e7784"],
+
+Cell[BoxData["ex"], "Input",
+ TaggingRules->{"LastCursorPosition" -> False},
+ CellChangeTimes->{
+  3.767869704382765*^9, {3.856691581156879*^9, 3.856691581257579*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"979bc5ae-ea9f-408d-b8b1-57c17a25e3bb"]
+},
+WindowSize->{1266, 1041},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+Magnification:>1.2 Inherited,
+FrontEndVersion->"12.2 for Linux x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"DefaultModified2.nb",
+ExpressionUUID->"8a6600ce-5114-4ec8-b7c3-95d7a656dbb4"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 8039, 143, 124, "Input",ExpressionUUID->"9cfdcba4-0445-4bd3-b7b1-9584274e7784"],
+Cell[8600, 165, 246, 4, 35, "Input",ExpressionUUID->"979bc5ae-ea9f-408d-b8b1-57c17a25e3bb"]
+}
+]
+*)
+
